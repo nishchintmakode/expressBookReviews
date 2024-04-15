@@ -1,3 +1,4 @@
+// Define a database of books
 let books = {
       1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
       2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
@@ -11,4 +12,5 @@ let books = {
       10: {"author": "Samuel Beckett","title": "Molloy, Malone Dies, The Unnamable, the trilogy", "reviews": {} }
 }
 
+// Export the database of books
 module.exports=books;
